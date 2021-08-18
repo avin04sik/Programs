@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Automation TestSuite"  >
+  <listeners>
+       <listener class-name="com.pomsample.qa.base.TestCaseListener"/>
+  </listeners>
+  <test name="Automation Testcases" >
+    <classes>
+      <class name="com.pomsample.qa.testcases.LoginPageTest">
+         <methods>
+                <include name = "loginPagetitleTest"/> 
+                <include name = "emsLogoTest"/> 
+                <include name = "loginTest"/> 
+            </methods>
+      
+      </class>
+      <class name="com.pomsample.qa.testcases.HomePageTest">
+           <methods>
+                <include name = "verifyHomePageTitleTest"/> 
+                <include name = "validateLogoutLinkTest"/> 
+                <include name = "validateEntLinkTest"/> 
+                <include name = "validateVisibleHelpLinkTest"/> 
+                <include name =  "verifyLogOutLinkTest"/> 
+                <include name =  "validateClickAdminLinkTest"/> 
+                <include name =  "copyRightTextTest"/>
+            </methods>
+      
+      </class>
+    </classes>
+ </test>
+</suite>
