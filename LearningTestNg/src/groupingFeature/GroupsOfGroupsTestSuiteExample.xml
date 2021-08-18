@@ -1,0 +1,27 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Regression Test Suite">
+<test name="Grouping Scenerio">
+
+   <groups>
+  <define name ="ALL Foods">
+   <include name="Lunch"/>
+     <include name="Breakfast"/>
+       <include name="Dinner"/>
+       </define>
+       
+        <define name ="Dinner And Lunch">
+
+     <include name="Lunch"/>
+       <include name="Dinner"/>
+       </define>
+  <run>
+     <!--  <include name="ALL Foods"/> -->
+      <include name="Dinner And Lunch"/>
+  </run>
+  </groups>
+<classes>
+<class name="groupingFeature.GroupingExample"></class>
+</classes>
+
+</test>
+</suite>

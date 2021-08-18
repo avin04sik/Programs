@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Regression Test Suite]">
+  <test name="Grouping Scenerio">
+    <groups>
+      <define name="ALl Foods">
+        <include name="Lunch"/>
+        <include name="Breakfast"/>
+        <include name="Dinner"/>
+      </define> <!-- ALl Foods -->
+      <define name="Dinner And Lunch">
+        <include name="Lunch"/>
+        <include name="Dinner"/>
+      </define> <!-- Dinner And Lunch -->
+      <run>
+        <include name="ALl Foods"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="groupingFeature.GroupingExample"/>
+    </classes>
+  </test> <!-- Grouping Scenerio -->
+</suite> <!-- Failed suite [Regression Test Suite] -->
