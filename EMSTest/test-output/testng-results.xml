@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="23933" started-at="2020-07-22T06:33:40Z" finished-at="2020-07-22T06:34:04Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="23933" started-at="2020-07-22T06:33:40Z" finished-at="2020-07-22T06:34:04Z">
+      <class name="com.ems.qa.testcases.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.ems.qa.testcases.LoginPageTest@3c72f59f]" name="setUp" is-config="true" duration-ms="6112" started-at="2020-07-22T06:33:40Z" finished-at="2020-07-22T06:33:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginPageTitleTest()[pri:1, instance:com.ems.qa.testcases.LoginPageTest@3c72f59f]" name="loginPageTitleTest" duration-ms="104" started-at="2020-07-22T06:33:46Z" finished-at="2020-07-22T06:33:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ems.qa.testcases.LoginPageTest@3c72f59f]" name="tearDown" is-config="true" duration-ms="1011" started-at="2020-07-22T06:33:46Z" finished-at="2020-07-22T06:33:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.ems.qa.testcases.LoginPageTest@3c72f59f]" name="setUp" is-config="true" duration-ms="5080" started-at="2020-07-22T06:33:47Z" finished-at="2020-07-22T06:33:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="emsLogoImageTest()[pri:2, instance:com.ems.qa.testcases.LoginPageTest@3c72f59f]" name="emsLogoImageTest" duration-ms="1456" started-at="2020-07-22T06:33:52Z" finished-at="2020-07-22T06:33:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emsLogoImageTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ems.qa.testcases.LoginPageTest@3c72f59f]" name="tearDown" is-config="true" duration-ms="974" started-at="2020-07-22T06:33:54Z" finished-at="2020-07-22T06:33:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.ems.qa.testcases.LoginPageTest@3c72f59f]" name="setUp" is-config="true" duration-ms="6901" started-at="2020-07-22T06:33:55Z" finished-at="2020-07-22T06:34:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginTest()[pri:3, instance:com.ems.qa.testcases.LoginPageTest@3c72f59f]" name="loginTest" duration-ms="1193" started-at="2020-07-22T06:34:02Z" finished-at="2020-07-22T06:34:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ems.qa.testcases.LoginPageTest@3c72f59f]" name="tearDown" is-config="true" duration-ms="878" started-at="2020-07-22T06:34:03Z" finished-at="2020-07-22T06:34:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ems.qa.testcases.LoginPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
